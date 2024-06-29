@@ -29,6 +29,5 @@ def upload_picture(file_content: bytes, filename: str, dir: str):
     except Exception as e:
         return f"Error processing image: {str(e)}"
 
-    # Assume all paths involve 'static/' for simplicity
     file_url = generated_name
     return file_url
