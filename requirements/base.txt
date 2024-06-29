@@ -1,0 +1,16 @@
+celery
+fastapi
+fastapi-cache2[redis]
+fastapi-mail
+flower
+python-dotenv
+sqlalchemy
+uvicorn[standard]
+asyncpg
+psycopg2-binary
+passlib
+alembic
+pyhumps
+aiosqlite
+ujson
+pillow
