@@ -13,6 +13,7 @@ from services.tags import TagService
 from sqlalchemy.ext.asyncio import AsyncSession
 from tasks.files import upload_picture
 
+
 class PostService:
     @staticmethod
     async def create_post(
@@ -110,4 +111,3 @@ class PostService:
         await session.refresh(post)
 
         return await PostService._format_post_to_schema(post.id, session)
-
