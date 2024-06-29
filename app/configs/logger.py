@@ -71,10 +71,3 @@ def init_logger(file_path):
     logger.debug(f"{module_name} logger was initialized")
 
     return logger
-
-
-# Example usage in different files
-if __name__ == "__main__":
-    logger = init_logger(__file__)
-    logger.info("This is an info message")
-    logger.error("This is an error message")
